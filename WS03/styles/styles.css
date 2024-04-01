@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Styled Elements</title>
+  <style>
+    /* Global styles */
+    body {
+      background-color: black;
+      color: white;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Class styles */
+    .custom-h1 {
+      font-size: 20px;
+    }
+
+    .custom-p {
+      font-size: 12px;
+      color: lightgray;
+    }
+
+    .custom-div {
+      border: 2px dotted white;
+      width: 100px;
+      height: 100px;
+    }
+
+    .custom-ol {
+      list-style-type: lower-alpha; /* Using lowercase letters */
+    }
+
+    .custom-ul {
+      list-style-type: square; /* Using squares */
+    }
+  </style>
+</head>
+<body>
+  <h1 class="custom-h1">Heading</h1>
+  <p class="custom-p">This is a paragraph.</p>
+  <div class="custom-div"></div>
+  <ol class="custom-ol">
+    <li>List item 1</li>
+    <li>List item 2</li>
+    <li>List item 3</li>
+  </ol>
+  <ul class="custom-ul">
+    <li>List item A</li>
+    <li>List item B</li>
+    <li>List item C</li>
+  </ul>
+</body>
+</html>
