@@ -1,7 +1,69 @@
+body {
+  background-color: lightgray;
+  font-family: Arial, sans-serif;
+}
+
+/* Otsikon tyyli */
 h1 {
-    color: rgb(130, 32, 195);
-  }
-  
-  p {
-    color: rgb(241, 235, 240);
-  }
+  color: darkblue;
+  font-size: 2em;
+  text-align: center;
+}
+
+/* Kappaleen tyyli */
+p {
+  color: blue;
+  font-size: 1.2em;
+}
+
+.content-box {
+  background-color: lightskyblue; /* Vaalea harmaa tausta */
+  border: 1px solid darkblue;   /* Ohut harmaa reunaviiva */
+  padding: 20px;            /* Tilaa elementin SISÄLLE */
+  margin: 30px;             /* Tilaa elementin YMPÄRILLE */
+  border-radius: 10px;      /* Pyöristetyt kulmat */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+    
+th, td {
+  border: 1px solid white;
+  padding: 8px;
+  text-align: left;
+}
+    
+th {
+  background-color: lightblue;
+}
+    
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+    
+label {
+  font-weight: bold;
+}
+    
+input[type="text"], input[type="email"] {
+  padding: 8px;
+  border: 1px solid grey;
+  border-radius: 4px;
+}
+    
+input[type="submit"] {
+  background-color: lightskyblue;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+    
+input[type="submit"]:hover {
+  background-color: lightskyblue;
+}
