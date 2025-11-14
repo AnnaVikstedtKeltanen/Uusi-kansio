@@ -1,30 +1,72 @@
 <!DOCTYPE html>
-<html lang="fi">
+    <html>
+    <head>
+        <title>Anna Vikstedt-Keltanen</title>
+        <link rel="stylesheet" href="style.css">
+        <style> 
+        body {
+            background-color: white;
+            font-family: Arial, sans-serif;
+            }
+        </style>
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
-    <link rel="stylesheet" href="./styles/styles.css">
-</head>
+    <body>
+    <h1 style="color: darkblue; text-align: center;">Anna Vikstedt-Keltanen</h1>
+    <p> Olen 40-vuotias kotiäiti, joka rakastaa pelata jalkapalloa. Olen pelannut jalkapalloa jo 33 vuotta.</p>
+    <figure>
+        <img src="image.jpg/Anna.jpg" alt="Kuva Himokselta pari vuotta sitten ennen lapsia">
+        <figcaption>Kuva Himokselta pari vuotta sitten ennen lapsia</figcaption>
+    </figure>
 
-<body>
-    <main>
-        <h1>Welcome to My Website</h1>
-        <ol type="A">
-            <li>eka ol elementti</li>
-            <li>toka ol elementti</li>
-            <li>kolmas ol elementti</li>
-        </ol>
-        <ul>
-            <li>eka ul elementti</li>
-            <li>toka ul elementti</li>
-            <li>kolmas ul elementti</li>
-        </ul>
-        <div>
-            <p>Tämä on paragrafi inside div</p>
-        </div>
-    </main>
+  <h2>Lista harrastuksistani</h2>
+  <ol>
+    <li>Jalkapallo</li>
+    <li>Futsal</li>
+    <li>Padel</li>
+  </ol>
+
+  <h3>Näitä voisin joskus kokeilla</h3>
+  <ul>
+    <li>Tennis</li>
+    <li>Tanssi</li>
+    <li>Golf</li>
+  </ul>
+
+    <a href="https://www.ebk.fi">Käy tutustumassa seuraan jossa pelaan jalkapalloa</a>
+<div class="content-box">
+  <h4>Jalkapallon joukkuejohtajan kurssit</h4>
+
+  <table>
+    <tr>
+      <th>Kurssi</th>
+      <th>Kuvaus</th>
+    </tr>
+    <tr>
+      <td>Palloliiton joukkueenjohtajakurssi</td>
+      <td>Antaa valmiudet toimia joukkueenjohtajana, sisältää viestinnän, tapahtumien organisoinnin ja pelisääntöjen tuntemuksen.</td>
+    </tr>
+    <tr>
+      <td>Seuran joukkueenjohtajaksi -kurssi</td>
+      <td>Auttaa kehittämään yhteistyö- ja vuorovaikutustaitoja joukkueen ja vanhempien kanssa.</td>
+    </tr>
+  </table>
+
+  <hr>
+</div>
+    <h5>Ota yhteyttä</h5>
+
+    <form>
+     <label for="name">Nimi:</label>
+    <input type="text" id="name" name="name" placeholder="Kirjoita nimesi"><br><br>
+
+    <label for="email">Sähköposti:</label>
+    <input type="email" id="email" name="email" placeholder="esimerkki@email.com"><br><br>
+
+    <input type="submit" value="Lähetä">
+
+    <button class="transition-button">Hover me</button>
+   
+    </form>
 </body>
-
 </html>
