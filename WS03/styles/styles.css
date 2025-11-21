@@ -1,29 +1,161 @@
-    body {
-      background-color: black;
-      color: white;
-      font-family: Arial, sans-serif;
-    }
+body {
+  background-color: lightgray;
+  font-family: Arial, sans-serif;
+}
 
-    /* Class styles */
-    .custom-h1 {
-      font-size: 20px;
-    }
+/* Otsikon tyyli */
+h1 {
+  color: darkblue;
+  font-size: 2em;
+  text-align: center;
+}
 
-    .custom-p {
-      font-size: 12px;
-      color: lightgray;
-    }
+/* Kappaleen tyyli */
+p {
+  color: blue;
+  font-size: 1.2em;
+}
 
-    .custom-div {
-      border: 2px dotted white;
-      width: 100px;
-      height: 100px;
-    }
+.content-box {
+  background-color: lightskyblue; /* Vaalea harmaa tausta */
+  border: 1px solid darkblue;   /* Ohut harmaa reunaviiva */
+  padding: 20px;            /* Tilaa elementin SISÄLLE */
+  margin: 30px;             /* Tilaa elementin YMPÄRILLE */
+  border-radius: 10px;      /* Pyöristetyt kulmat */
+}
 
-    .custom-ol {
-      list-style-type: lower-alpha; /* Using lowercase letters */
-    }
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+    
+th, td {
+  border: 1px solid white;
+  padding: 8px;
+  text-align: left;
+}
+    
+th {
+  background-color: lightblue;
+}
+    
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+    
+label {
+  font-weight: bold;
+}
+    
+input[type="text"], input[type="email"] {
+  padding: 8px;
+  border: 1px solid grey;
+  border-radius: 4px;
+}
+    
+input[type="submit"] {
+  background-color: lightskyblue;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+    
+input[type="submit"]:hover {
+  background-color: lightskyblue;
+}
 
-    .custom-ul {
-      list-style-type: square; /* Using squares */
-    }
+figure {
+  text-align: center;
+  margin: 20px;
+}
+
+figcaption {
+  font-style: italic;
+  color: gray;
+}
+
+.transition-button {
+  background-color: lightskyblue;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.transition-button:hover {
+  background-color: lightblue;
+}
+.animation-box {
+        width: 50px;
+        height: 50px;
+        background-color: lightgreen;
+        position: relative;
+        animation: move 2s infinite alternate;
+      }
+      
+      @keyframes move {
+        from {
+          left: 0;
+        }
+        to {
+          left: 100px;
+        }
+      }
+
+.pseudo-list li:nth-child(odd) {
+        background-color: lightgray;
+      }
+      
+      .pseudo-list li:nth-child(even) {
+        background-color: white;
+      }
+.filter-image {
+        filter: grayscale(100%);
+        transition: filter 0.3s ease;
+      }
+      
+      .filter-image:hover {
+        filter: grayscale(0%);
+      }
+
+.quote {
+        position: relative;
+        padding-left: 20px;
+        font-style: Arial;
+      }
+      
+      .quote::before {
+        content: '“';
+        font-size: 40px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        color: lightgray;
+      }
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .box {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+  }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+  
+  .grid-item {
+    background-color: lightslategray;
+    padding: 20px;
+    text-align: center;
+  }
