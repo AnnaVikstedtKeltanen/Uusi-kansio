@@ -1,46 +1,42 @@
 <!DOCTYPE html>
-    <html>
+    <html lang="fi">
     <head>
+        <meta charset="UTF-8">
         <title>Anna Vikstedt-Keltanen</title>
         <link rel="stylesheet" href="style.css">
-        <style> 
-        body {
-            background-color: white;
-            font-family: Arial, sans-serif;
-            }
-        </style>
+
     </head>
-<header>
-    <h1 style="color: darkblue; text-align: center;">Anna Vikstedt-Keltanen</h1>
-  
-    <nav>
-        <ul>
-            <li><a href="#intro">Esittely</a></li>
-            <li><a href="#harrastukset">Harrastukset</a></li>
-            <li><a href="#kurssit">Kurssit</a></li>
-            <li><a href="#yhteys">Yhteystiedot</a></li>
-        </ul>
+<body>
+  <header>
+  <nav class="responsive-nav">
+      <button class="menu-toggle">☰ Menu</button>
+      <ul class="nav-list">
+        <li><a href="#about">Minä</a></li>
+        <li><a href="#harrastukset">Lista harrastuksistani</a></li>
+        <li><a href="#contact">Ota yhteyttä</a></li>
+      </ul>
+      
     </nav>
-</header>
-    <body>
-        <section id="intro">
-        <div class="intro-container"></div>
+
+    <h1>Tervetuloa sivuilleni</h1>
+  </header>
+
+ 
     <h1 style="color: darkblue; text-align: center;">Anna Vikstedt-Keltanen</h1>
     <p> Olen 40-vuotias kotiäiti, joka rakastaa pelata jalkapalloa. Olen pelannut jalkapalloa jo 33 vuotta.</p>
     <figure>
         <img src="images/Anna.jpg" alt="Kuva Himokselta pari vuotta sitten ennen lapsia">
         <figcaption>Kuva Himokselta pari vuotta sitten ennen lapsia</figcaption>
     </figure>
-        </section>
-
-<section id="harrastukset"></section>
-<div class="harrastukset-container"> 
+<main>
+    <section id="harrastukset">
   <h2>Lista harrastuksistani</h2>
   <ol>
     <li>Jalkapallo</li>
     <li>Futsal</li>
     <li>Padel</li>
   </ol>
+   </section>
 
   <h3>Näitä voisin joskus kokeilla</h3>
   <ul>
@@ -50,8 +46,8 @@
   </ul>
 
     <a href="https://www.ebk.fi">Käy tutustumassa seuraan jossa pelaan jalkapalloa</a>
+<div class="content-box">
     
-
   <h4>Jalkapallon joukkuejohtajan kurssit</h4>
 
   <table>
@@ -68,12 +64,10 @@
       <td>Auttaa kehittämään yhteistyö- ja vuorovaikutustaitoja joukkueen ja vanhempien kanssa.</td>
     </tr>
   </table>
+
   <hr>
-</div>
-
-
-<section id="yhteys">
-  <div class="yhteys-container">
+ </div>
+    <section id="contact">
     <h5>Ota yhteyttä</h5>
 
     <form>
@@ -86,6 +80,7 @@
     <input type="submit" value="Lähetä">
    
     </form>
+</section>
 
 <button class="transition-button">Avaa</button>
 
@@ -103,19 +98,39 @@
 <blockquote class="quote">
   Seuralogo.
 </blockquote>
+  <div class="flex-container">
+    <div class="box">Box 1</div>
+    <div class="box">Box 2</div>
+    <div class="box">Box 3</div>
   </div>
-</section>
 
-<div class="responsive-box">Joukkueenjohtajan todo:t</div>
+<div class="grid-container">
+    <div class="grid-item">1</div>
+    <div class="grid-item">2</div>
+    <div class="grid-item">3</div>
+    <div class="grid-item">4</div>
+    <div class="grid-item">5</div>
+    <div class="grid-item">6</div>
+  </div>
 
-<div class="flex-container">
-    <div class="box">Pelaajahallinta</div>
-    <div class="box">Harjoitus- ja ottelusuunnittelu</div>
-    <div class="box">Viestintä ja tiedotus</div>
-</div>
+  <div class="responsive-container">
+      <div class="column">Column 1</div>
+      <div class="column">Column 2</div>
+    </div>
+
+  <img src="images/jalkapallo.jpg" alt="Responsive Image" class="responsive-image">
+  <div class="media-query-box">Resize the window to see the effect</div>
+
+ <div class="responsive-box">Resize the window to see the effect</div>
+    <section id="about">
+      <h2>Tietoja minusta</h2>
+      <p>Olen saksalainen jousiampuja joka harrastaa jalkapalloa ja kotiäiti</p>
+    </section>
+  </main>
 
 <footer>
-    <p>© 2025 Anna Vikstedt-Keltanen</p>
-</footer>
+    <p>Anna Vikstedt-Keltanen 2025</p>
+  </footer>
+
 </body>
 </html>
