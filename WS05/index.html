@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+    <html lang="fi">
+    <head>
+        <meta charset="UTF-8">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+        <title>Anna Vikstedt-Keltanen</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        
+    </head>
+<body>
+  <header>
+      
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Koti</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">Minä</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#harrastukset">Lista harrastuksistani</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="#contact">Ota yhteyttä</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container-fluid text-center">
+  <div class="row">
+    <div class="col-md-4 col-12 box">Jalkapallo</div>
+    <div class="col-md-4 col-12 box">Kuka olen</div>
+    <div class="col-md-4 col-12 box">Jalkapallo seurasta</div>
+  </div>
+</div>
+
+    <button class="btn btn-danger">Click Me</button>
+
+    <h1>Tervetuloa sivuilleni</h1>
+  </header>
+ 
+    <h1 style="color: darkblue; text-align: center;">Anna Vikstedt-Keltanen</h1>
+    <p> Olen 40-vuotias kotiäiti, joka rakastaa pelata jalkapalloa. Olen pelannut jalkapalloa jo 33 vuotta.</p>
+    <figure>
+        <img src="images/Anna.jpg" alt="Kuva Himokselta pari vuotta sitten ennen lapsia">
+        <figcaption>Kuva Himokselta pari vuotta sitten ennen lapsia</figcaption>
+    </figure>
+<div class="container mt-4">
+  <div class="row">
+    <div class="card" style="width: 18rem;">
+      <img src="images/jalkapallo.jpg" class="card-img-top" alt="Card Image">
+      <div class="card-body">
+        <h5 class="card-title">Jalkapallo</h5>
+        <p class="card-text">Täällä kerron lisää jalkapallosta ja omasta jalkapallourastani</p>
+        <a href="#" class="btn btn-primary">Lue lisää</a>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="images/ebklogo.jpg" class="card-img-top" alt="Card Image">
+      <div class="card-body">
+        <h5 class="card-title">Jalkapalloseura</h5>
+        <p class="card-text">Täällä kerron lisää jalkapallostaseurasta</p>
+        <a href="#" class="btn btn-primary">Lue lisää</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="images/Anna.jpg" class="card-img-top" alt="Card Image">
+      <div class="card-body">
+        <h5 class="card-title">Minä</h5>
+        <p class="card-text">Täällä kerron lisää taustastani</p>
+        <a href="#" class="btn btn-primary">Lue lisää</a>
+      </div>
+    </div>
+  </div>
+
+<main>
+    <section id="harrastukset">
+  <h2>Lista harrastuksistani</h2>
+    <div class="flex-container">
+    <div class="box">Nyt</div>
+    <div class="box">tulevaisuudessa</div>
+  </div>
+
+<div class="all-grids">
+
+  <div class="grid-container">
+      <div class="grid-item">Jalkapallo</div>
+      <div class="grid-item">Tennis</div>
+      <div class="grid-item">Futsal</div>
+      <div class="grid-item">Tanssi</div>
+      <div class="grid-item">Padel</div>
+      <div class="grid-item">Golf</div>
+  </div>
+
+</div>
+    
+   </section>
+
+    <a href="https://www.ebk.fi">Käy tutustumassa seuraan jossa pelaan jalkapalloa</a>
+<div class="content-box">
+    
+  <h4>Jalkapallon joukkuejohtajan kurssit</h4>
+
+  <table>
+    <tr>
+      <th>Kurssi</th>
+      <th>Kuvaus</th>
+    </tr>
+    <tr>
+      <td>Palloliiton joukkueenjohtajakurssi</td>
+      <td>Antaa valmiudet toimia joukkueenjohtajana, sisältää viestinnän, tapahtumien organisoinnin ja pelisääntöjen tuntemuksen.</td>
+    </tr>
+    <tr>
+      <td>Seuran joukkueenjohtajaksi -kurssi</td>
+      <td>Auttaa kehittämään yhteistyö- ja vuorovaikutustaitoja joukkueen ja vanhempien kanssa.</td>
+    </tr>
+  </table>
+
+  <hr>
+ </div>
+    <section id="contact">
+    <h5>Ota yhteyttä</h5>
+
+    <form>
+     <label for="name">Nimi:</label>
+    <input type="text" id="name" name="name" placeholder="Kirjoita nimesi"><br><br>
+
+    <label for="email">Sähköposti:</label>
+    <input type="email" id="email" name="email" placeholder="esimerkki@email.com"><br><br>
+
+    <input type="submit" value="Lähetä">
+    </form>
+</section>
+
+
+<div id="liveAlertPlaceholder">
+    <button id="liveAlertBtn" class="animation-box">Show live alert</button>
+</div>
+
+
+<ul class="pseudo-list">
+  <li>Pelaajaluettelo</li>
+  <li>Pelin kokoonpanolomakkeet</li>
+  <li>Harjoitus- ja pelikalenteri</li>
+  <li>Viestintäalusta (WhatsApp, MyClub tms.)</li>
+</ul>
+
+<img src="images/ebklogo.jpg" alt="Sample Image" class="filter-image">
+
+<div class="card">
+  <div class="card-header">
+    Quote
+  </div>
+  <div class="card-body">
+    <figure>
+      <blockquote class="blockquote">
+        <p>Cest la vie</p>
+      </blockquote>
+      <figcaption class="blockquote-footer">
+        Lauloi suomalainen laulaja <cite title="Source Title">Anna Puu</cite>
+      </figcaption>
+    </figure>
+  </div>
+</div>
+
+  
+
+  <div class="responsive-container">
+      <div class="column">Column 1</div>
+      <div class="column">Column 2</div>
+    </div>
+ <div class="responsive-box"></div>
+
+    <section id="about">
+      <h2>Tietoja minusta</h2>
+      <p>Olen saksalainen jousiampuja joka harrastaa jalkapalloa ja olen kotiäitinä. Asun espoossa perheeni kanssa.</p>
+    </section>
+  </main>
+
+<footer>
+    <p>Anna Vikstedt-Keltanen 2025</p>
+  </footer>
+
+</body>
+</html>
